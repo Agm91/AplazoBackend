@@ -44,8 +44,7 @@ logs/
 *.DS_Store
 *.sublime-project
 *.sublime-workspace
-docker-compose.yml
-Dockerfile
+
 *.env
 .env.local
 .env.development.local
