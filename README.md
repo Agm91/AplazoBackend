@@ -55,7 +55,7 @@ To run tests with coverage, runm the following command:
 
 You should be able to see something like:
 
-`![Test Coverage](images/testCoverage.png)`
+`![Test Coverage](https://github.com/Agm91/AplazoBackend/blob/main/testCoverage.png)`
 
 ## Video
 
@@ -64,6 +64,8 @@ Functionality video [here](https://drive.google.com/drive/folders/1wHZ1NmDKr3DqP
 ## Considerations
 
 Docker files and application.properties should never have real urls, pass nor users.
+
+**Clean architecture is essential. I prioritized speed this time and still, got 82% test covered.**
 
 ## Thank you
 
