@@ -55,7 +55,7 @@ To run tests with coverage, runm the following command:
 
 You should be able to see something like:
 
-`![Test Coverage](https://github.com/Agm91/AplazoBackend/blob/main/testCoverage.png)`
+![Test Coverage](https://github.com/Agm91/AplazoBackend/blob/main/testCoverage.png)
 
 ## Video
 
