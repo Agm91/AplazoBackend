@@ -13,12 +13,13 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
-
+import org.springframework.test.context.ActiveProfiles;
 import com.aplazo.model.input.Customer;
 import com.aplazo.model.output.RegisterCustomerResponse;
 import com.aplazo.repository.CustomerRepository;
 
 @SpringBootTest
+@ActiveProfiles("test")
 public class CustomerServiceTest {
 
     @Mock
