@@ -1,18 +1,18 @@
 package com.aplazo.service;
 
-import com.aplazo.model.input.Credit;
-import com.aplazo.model.input.Customer;
-import com.aplazo.model.output.RegisterCustomerResponse;
-import com.aplazo.repository.CustomerRepository;
-import com.google.common.annotations.VisibleForTesting;
+import java.time.LocalDate;
+import java.time.Period;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.time.Period;
+import com.aplazo.model.input.Credit;
+import com.aplazo.model.input.Customer;
+import com.aplazo.model.output.RegisterCustomerResponse;
+import com.aplazo.repository.CustomerRepository;
+import com.google.common.annotations.VisibleForTesting;
 
 @Service
 public class CustomerService {

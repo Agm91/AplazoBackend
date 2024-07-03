@@ -17,6 +17,7 @@ import org.mockito.Mock;
 import static org.mockito.Mockito.when;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
 import com.aplazo.model.entity.PurchaseEntity;
 import com.aplazo.model.input.Credit;
@@ -25,6 +26,7 @@ import com.aplazo.repository.CustomerRepository;
 import com.aplazo.repository.PurchaseRepository;
 
 @SpringBootTest
+@ActiveProfiles("test")
 public class PurchaseServiceTest {
 
     @Mock
